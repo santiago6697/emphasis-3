@@ -1,0 +1,47 @@
+loading app simple_switch_13.py
+loading app ryu.controller.ofp_handler
+instantiating app simple_switch_13.py of SimpleSwitch13
+instantiating app ryu.controller.ofp_handler of OFPHandler
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 4 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 4 00:00:00:00:00:04 00:00:00:00:00:01 1
+packet in 3 00:00:00:00:00:04 00:00:00:00:00:01 3
+packet in 2 00:00:00:00:00:04 00:00:00:00:00:01 3
+packet in 1 00:00:00:00:00:04 00:00:00:00:00:01 2
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:04 1
+packet in 2 00:00:00:00:00:01 00:00:00:00:00:04 2
+packet in 3 00:00:00:00:00:01 00:00:00:00:00:04 2
+packet in 4 00:00:00:00:00:01 00:00:00:00:00:04 2
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35862)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35884)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35906)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35908)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35910)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35912)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35914)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35916)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('192.168.100.33', 35918)
+packet in 1 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 1
+packet in 2 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 3 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 4 00:00:00:00:00:01 ff:ff:ff:ff:ff:ff 2
+packet in 4 00:00:00:00:00:04 00:00:00:00:00:01 1
+packet in 3 00:00:00:00:00:04 00:00:00:00:00:01 3
+packet in 2 00:00:00:00:00:04 00:00:00:00:00:01 3
+packet in 1 00:00:00:00:00:04 00:00:00:00:00:01 2
+packet in 1 00:00:00:00:00:01 00:00:00:00:00:04 1
+packet in 2 00:00:00:00:00:01 00:00:00:00:00:04 2
+packet in 3 00:00:00:00:00:01 00:00:00:00:00:04 2
+packet in 4 00:00:00:00:00:01 00:00:00:00:00:04 2
+packet in 2 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 2
+packet in 1 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 1
+packet in 3 00:00:00:00:00:02 ff:ff:ff:ff:ff:ff 3
+packet in 3 00:00:00:00:00:03 00:00:00:00:00:02 1
+packet in 1 00:00:00:00:00:03 00:00:00:00:00:02 2
+packet in 2 00:00:00:00:00:03 00:00:00:00:00:02 3
+packet in 2 00:00:00:00:00:02 00:00:00:00:00:03 2
+packet in 1 00:00:00:00:00:02 00:00:00:00:00:03 1
+packet in 3 00:00:00:00:00:02 00:00:00:00:00:03 3
+

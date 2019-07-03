@@ -1,0 +1,27 @@
+1. Correr en ryu-manager simple_switch_13.py y ofctl_rest.py en local
+	ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest
+2. En mininet descargar sflow-rt
+	wget https://inmon.com/products/sFlow-RT/sflow-rt.tar.gz
+	tar -xvzf sflow-rt.tar.gz
+3. Instalar Java en mininet y verificar que funciona
+4. Instalar el mininet-dashboard
+	sflow-rt/get-app.sh sflow-rt mininet-dashboard
+5. Transferir ryu.js (descargar) a mininet/ (principal)
+6. Modificar ryu.js con la ip de donde corre ryu (en var ryu='192...)
+7. Ejecutar ryu.js
+	env "RTPROP=-Dscript.file=$PWD/ryu.js" sflow-rt/start.sh
+8. Modificar el archivo sflow.py (en sflow-rt/extras/sflow.py)
+	import json
+	...
+	[84] put(.... json=...) por (... data=json.dumps(...)) 
+9. Instalar hping3
+	sudo apt install hping3
+10. Correr la simulación de red (cambiar la ip del controlador)
+	sudo mn --custom sflow-rt/extras/sflow.py --link tc,bw=10 --controller=remote,ip=127.0.0.1 --topo tree,depth=2,fanout=2
+11. Abrir la dirección ip de mininet (vm) en el puerto 8008 en el navegador
+	ir a app/chart
+12. Verificar que se encuentra la topología en app/topology
+13. Hacer un iperf h1 h3
+14. Atacar!
+	 h1 hping3 --flood --udp -k -s 53 h3
+15. Revisar el impacto desde el dashboard

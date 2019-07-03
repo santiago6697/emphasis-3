@@ -1,0 +1,17 @@
+------------------
+A
+------------------
+- Instead of capturing mac addresses, we have to capture IP addresses in simple_switch_13.py
+- (TURN LAYER 2 SWITCH INTO LAYER 3)
+------------------
+B
+------------------
+- Traffic monitor must show information in HTML instead of desktop (flaks,  bd, socket).
+- Switch monitor.
+------------------
+C
+------------------
+- Operate SFLOW with datacenter topology and RYU
+- blog.sflow.com/2018/10/ryu-measurement-based-control.html
+- sflow.py, simple_switch_13.py, ofctl_rest, sflot_rt.
+- Interacting with OpenFlow Switchs via Ryu Controller with Postman - Youtube
